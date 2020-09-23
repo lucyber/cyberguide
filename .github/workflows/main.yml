@@ -15,12 +15,6 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           
-      - name: Test
-        run: |
-          echo Hey there buddy!
-          ls -la
-          pwd
-          
 #       - name: Setup Node.js environment
 #         uses: actions/setup-node@v1.4.3
 #         with:
@@ -31,15 +25,15 @@ jobs:
 #         with:
 #           hugo-version: '0.75.1'
 
-#       - name: Build Theme
-#         run: |
-#           cd themes/geekdoc
-#           npm install
-#           gulp default
-#           cd ../..
+      - name: Build Theme
+        run: |
+          cd themes/geekdoc
+          npm install
+          gulp default
+          cd ../..
         
-#       - name: Build Hugo
-#         run: hugo --minify
+      - name: Build Hugo
+        run: hugo --minify
         
 #       - name: Deploy
 #         uses: easingthemes/ssh-deploy@v2.1.5
