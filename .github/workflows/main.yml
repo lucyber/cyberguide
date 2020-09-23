@@ -28,7 +28,6 @@ jobs:
       - name: Build Theme
         run: |
           cd themes/geekdoc
-          npm install
           gulp default
           cd ../..
         
