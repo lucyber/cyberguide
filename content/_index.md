@@ -1,24 +1,57 @@
 ---
-title: Documentation
+title: LU Cyberguide
 ---
 
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable MD033 -->
 
-<span class="badge-placeholder">[![Build Status](https://img.shields.io/drone/build/xoxys/hugo-geekdoc?logo=drone)](https://cloud.drone.io/xoxys/hugo-geekdoc)</span>
-<span class="badge-placeholder">[![Hugo Version](https://img.shields.io/badge/hugo-0.65-blue.svg)](https://gohugo.io)</span>
-<span class="badge-placeholder">[![GitHub release](https://img.shields.io/github/v/release/xoxys/hugo-geekdoc)](https://github.com/xoxys/hugo-geekdoc/releases/latest)</span>
-<span class="badge-placeholder">[![GitHub contributors](https://img.shields.io/github/contributors/xoxys/hugo-geekdoc)](https://github.com/xoxys/hugo-geekdoc/graphs/contributors)</span>
-<span class="badge-placeholder">[![License: MIT](https://img.shields.io/github/license/xoxys/hugo-geekdoc)](https://github.com/xoxys/hugo-geekdoc/blob/master/LICENSE)</span>
+## Getting Started
 
-<!-- markdownlint-restore -->
+**A Topical Roadmap to Getting Started in Cybersecurity**
 
-Geekdoc is a simple Hugo theme for documentations. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there. You can find a demo and the full documentation at [https://geekdocs.de](https://geekdocs.de).
+- Linux
+    - Installing
+    - Configuring
+    - Customizing
+    - Administration
+    - Servers
+    - Scripting
+    - Software Stacks
+    - Hardening
+- Windows
+    - Installing
+    - Configureing
+    - Active Directory
+    - Windows Services
+    - Powershell
+- Networking
+    - Basics
+    - IP Addressing
+    - OSI Model
+    - Protocols
+    - Subnetting
+    - Packets
+    - Cloud Networking
+    - VPN
+    - VLANS
+    - Cisco
+- Hacking
+    - Recon
+    - Enumeration
+    - Exploitation
+    - PrivEsc
+    - Persistnece
+- Careers
+    - Pentesting
+    - Auditing
+    - Consulting
+    - Analysis
+    - Corporate
+    - Government
 
-## Features
+## Roadmap by Skill Level
 
-- Clean and simple design
-- Light and mobile-friendly
-- Easy customization
-- Zero initial configuration
-- Handy shortcodes
+- Just Born
+- Beginner
+- Intermediate
+- Advanced
+- Expert
+- Insane
