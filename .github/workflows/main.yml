@@ -25,9 +25,12 @@ jobs:
 #         with:
 #           hugo-version: '0.75.1'
 
+      - uses: bahmutov/npm-install@v1
+        with:
+          workingDirectory: themes/geekdoc
+          
       - name: Build Theme
         run: |
-          cd themes/geekdoc
           gulp default
           cd ../..
         
