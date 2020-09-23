@@ -27,7 +27,8 @@ jobs:
 
       - uses: bahmutov/npm-install@v1
         with:
-          workingDirectory: themes/geekdoc
+          working-directory: themes/geekdoc
+          useLockFile: true
           
       - name: Build Theme
         run: |
