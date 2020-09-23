@@ -1,5 +1,5 @@
-baseURL = "http://localhost"
-title = "Cyberguide"
+baseURL = "https://cyberguide.os9.run/"
+title = "LU Cyberguide"
 theme = "geekdoc"
 
 # Geekdoc required configuration
