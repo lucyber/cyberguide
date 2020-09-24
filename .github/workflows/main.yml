@@ -38,6 +38,10 @@ jobs:
         
       - name: Build Hugo
         run: hugo --minify
+      
+      - name: Deploy
+        run: cp -R public/ /var/www/cyberguide.os9.run/public/
+        
         
 #       - name: Deploy
 #         uses: easingthemes/ssh-deploy@v2.1.5
