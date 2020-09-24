@@ -5,6 +5,8 @@ title: LU Cyberguide
 
 ## Getting Started
 
+**Note: This content is in the very early stages of contruction!**
+
 **A Topical Roadmap to Getting Started in Cybersecurity**
 
 - Linux
