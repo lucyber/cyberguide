@@ -51,6 +51,35 @@ and scalable, maintainable, and standard platform that is already used for docum
 the industry. By writing in plain text with markdown and defining structure with a simple folder
 structure, we can export that content to a Website (default), a PDF, and even an ebook.
 
+## Development
+
+For simple changes, those with write access to the repository can make changes to the files directly on github. 
+When a change is commited to the master branch, the CI/CD pipeline with Github Actions kicks off, generates the site
+with Hugo and deploys the result. If you're curious, that workflow file is located at `.github/workflows/main.yml`
+
+For local development, you will need [NodeJS](nodejs.org), and [Hugo](gohugo.io) installed. Simple clone the repository
+make your changes, and commit them. You will need to build the theme assets for the first time. After that you
+can use hugo's local dev server with live reloading to see changes as you make them.
+
+**Example:**
+
+```
+git clone git@github.com:lucyber/cyberguide.git
+cd cyberguide/themes/geekdoc
+npm install
+gulp default
+cd ../..
+hugo server -D
+```
+
+*Commit changes*
+
+```
+git add -A
+git commit -m "Added privesc links"
+git push
+```
+
 ## Todo
 
 * [] Define Skill based outline
