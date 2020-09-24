@@ -3,7 +3,7 @@
   Cyberguide
 </h1>
 
-![](/images/feature.png)
+![](/static/images/feature.png)
 
 <h3 align="center">Welcome to Cyberguide, an open source, definitive collection of resources, writeups and guides for bootstraping your career in Cybersecurity.</h3>
 
