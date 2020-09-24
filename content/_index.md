@@ -9,6 +9,11 @@ title: LU Cyberguide
 
 **A Topical Roadmap to Getting Started in Cybersecurity**
 
+- Getting Started
+    - Kali VMs
+    - Bandit
+    - Underthewire
+    - hackthebox
 - Linux
     - Installing
     - Configuring
