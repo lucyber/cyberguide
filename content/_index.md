@@ -24,6 +24,12 @@ title: LU Cyberguide
     - Active Directory
     - Windows Services
     - Powershell
+- Programming
+    - Python Basics
+    - Bash Scripting
+    - Socket Programming
+    - C Programming
+    - Other Happy languages
 - Networking
     - Basics
     - IP Addressing
