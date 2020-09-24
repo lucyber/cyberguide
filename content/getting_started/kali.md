@@ -1,7 +1,7 @@
 ---
 title: "Kali Linux"
 date: 2020-09-24T14:31:33-04:00
-draft: true
+draft: false
 weight: -1
 ---
 
