@@ -93,7 +93,8 @@ git push
 ## Credits
 
 - Philip - Original Idea
-- [Hugo](http://carbon.now.sh) (Static Site Generation from Markdown)
+- [Hugo](gohugo.io) (Static Site Generation from Markdown)
+- [Geekdoc Theme](https://github.com/xoxys/hugo-geekdoc) (Documentation Theme for Hugo)
 
 ## License
 
