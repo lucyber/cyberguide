@@ -22,8 +22,8 @@ markup:
 params:
   geekdocToC: 3
 
-  geekdocRepo: https://github.com/xoxys/hugo-geekdoc
-  geekdocEditPath: edit/master/exampleSite/content
+  geekdocRepo: https://github.com/lucyber/cyberguide
+  geekdocEditPath: edit/master/content
 
   geekdocSearch: true
 
