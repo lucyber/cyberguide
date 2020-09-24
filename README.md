@@ -3,6 +3,8 @@
   Cyberguide
 </h1>
 
+![](/images/feature.png)
+
 <h3 align="center">Welcome to Cyberguide, an open source, definitive collection of resources, writeups and guides for bootstraping your career in Cybersecurity.</h3>
 
 <p align="center">Maintained by the Cyber Defense Club at Liberty University</p>
