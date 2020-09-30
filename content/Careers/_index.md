@@ -1,4 +1,4 @@
 ---
 weight: 6
-draft: trues
+draft: true
 ---
