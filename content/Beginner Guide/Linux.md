@@ -25,3 +25,7 @@ Linux is an open-source operating system that is essential to know about in the 
     + Teaches basics of shell scripting
 + Python
     + NEED BASIC RESOURCE
+
+
+
+**[Continue](https://cyberguide.os9.run/Beginner-Guide/Windows/)**

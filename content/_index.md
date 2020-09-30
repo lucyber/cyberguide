@@ -3,59 +3,22 @@ title: LU Cyberguide
 ---
 
 
-## Getting Started
+
+
+## Welcome
 
 **Note: This content is in the very early stages of contruction!**
 
+Weclome to the Liberty University Cyberguide! This is guide is designed for students to learn about cybersecurity by utilizing the provided resources. As time goes on more content will be added to this site and the guide will continue to be updated and improved. 
+
+## Getting Started
+
 **A Topical Roadmap to Getting Started in Cybersecurity**
 
+- Beginner Guide
+    - Linux
+    - Windows
+    - Networking
+    - CTFs
 - Getting Started
-    - Kali VMs
-    - Bandit
-    - Underthewire
-    - hackthebox
-- Linux
-    - Installing
-    - Configuring
-    - Customizing
-    - Administration
-    - Servers
-    - Scripting
-    - Software Stacks
-    - Hardening
-- Windows
-    - Installing
-    - Configureing
-    - Active Directory
-    - Windows Services
-    - Powershell
-- Programming
-    - Python Basics
-    - Bash Scripting
-    - Socket Programming
-    - C Programming
-    - Other Happy languages
-- Networking
-    - Basics
-    - IP Addressing
-    - OSI Model
-    - Protocols
-    - Subnetting
-    - Packets
-    - Cloud Networking
-    - VPN
-    - VLANS
-    - Cisco
-- Hacking
-    - Recon
-    - Enumeration
-    - Exploitation
-    - PrivEsc
-    - Persistnece
-- Careers
-    - Pentesting
-    - Auditing
-    - Consulting
-    - Analysis
-    - Corporate
-    - Government
+    - Kali Linux
