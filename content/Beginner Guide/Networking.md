@@ -11,6 +11,7 @@ Networking is essentially just how computers communicate with each other whether
 **Networking basics**
 + [OSI Model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 + [Protocols and Ports](https://docs.microsoft.com/en-us/learn/modules/network-fundamentals/)
++ [Common Protocols List](https://www.interserver.net/tips/kb/common-network-protocols-ports/)
 
 **Wireshark**
 + [Getting Started with Wireshark Packet Capturing](https://www.howtogeek.com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/)
