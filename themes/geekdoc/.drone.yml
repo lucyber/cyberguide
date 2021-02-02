@@ -10,33 +10,32 @@ steps:
 - name: assets
   image: node:lts
   commands:
-  - npm install -g gulp
-  - npm install
-  - gulp default
+  - npm install > /dev/null
+  - npx gulp default
   environment:
     FORCE_COLOR: true
     NPM_CONFIG_LOGLEVEL: error
 
 - name: testbuild
-  image: klakegg/hugo:0.74.3-ext-alpine
+  image: klakegg/hugo:0.80.0-ext-alpine-ci
   commands:
   - mkdir exampleSite/themes/ && ln -s $(pwd)/ exampleSite/themes/hugo-geekdoc
   - hugo-official -s exampleSite/ -b http://localhost/
 
 - name: html-validation
-  image: xoxys/vnu
+  image: thegeeklab/vnu
   commands:
   - vnu --skip-non-html --also-check-css --errors-only exampleSite/public
 
 - name: link-validation
-  image: xoxys/link-validator
+  image: thegeeklab/link-validator
   commands:
-  - link-validator -ro
+  - link-validator -ro --exclude "https://github.com/thegeeklab/hugo-geekdoc/edit/master/*"
   environment:
     LINK_VALIDATOR_BASE_DIR: exampleSite/public
 
 - name: page-validation
-  image: xoxys/lhci
+  image: thegeeklab/lhci
   commands:
   - lhci autorun
   environment:
@@ -60,6 +59,18 @@ steps:
     - failure
     - success
 
+- name: page-validation-link
+  image: thegeeklab/drone-github-comment
+  settings:
+    api_key:
+      from_secret: github_token
+    key: pr-${DRONE_PULL_REQUEST}
+    message: lhci_reports/dist/summary.md
+    update: true
+  when:
+    ref:
+    - refs/pull/**
+
 trigger:
   ref:
   - refs/heads/master
@@ -78,9 +89,8 @@ steps:
 - name: assets
   image: node:lts
   commands:
-  - npm install -g gulp
-  - npm install
-  - gulp default
+  - npm install > /dev/null
+  - npx gulp default
   environment:
     FORCE_COLOR: true
     NPM_CONFIG_LOGLEVEL: error
@@ -129,13 +139,9 @@ concurrency:
 
 steps:
 - name: markdownlint
-  image: node:lts-alpine
+  image: thegeeklab/markdownlint-cli
   commands:
-  - npm install -g markdownlint-cli
   - markdownlint 'exampleSite/content/**/*.md' 'README.md'
-  environment:
-    FORCE_COLOR: true
-    NPM_CONFIG_LOGLEVEL: error
 
 - name: spellcheck
   image: node:lts-alpine
@@ -147,13 +153,13 @@ steps:
     NPM_CONFIG_LOGLEVEL: error
 
 - name: assets
-  image: byrnedo/alpine-curl
+  image: thegeeklab/alpine-tools
   commands:
   - mkdir -p exampleSite/themes/hugo-geekdoc/
-  - curl -sSL https://github.com/xoxys/hugo-geekdoc/releases/latest/download/hugo-geekdoc.tar.gz | tar -xz -C exampleSite/themes/hugo-geekdoc/ --strip-components=1
+  - curl -sSL https://github.com/thegeeklab/hugo-geekdoc/releases/latest/download/hugo-geekdoc.tar.gz | tar -xz -C exampleSite/themes/hugo-geekdoc/ --strip-components=1
 
 - name: build
-  image: klakegg/hugo:0.74.3-ext-alpine
+  image: klakegg/hugo:0.80.0-ext-alpine-ci
   commands:
   - hugo-official -s exampleSite/
 
@@ -234,6 +240,6 @@ depends_on:
 
 ---
 kind: signature
-hmac: 082cef9076e41be30895bc3500bb2ebf888ae24e978e41cea71cd2e45c80b483
+hmac: 5a9fb43eef9e2acf0b02e3a401dfac450cf498acdcb48b6dbf81ee0db5751f8d
 
 ...
