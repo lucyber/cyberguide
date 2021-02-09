@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LU Cyberguide</title>
+    <title>LU Cyber Club on LU Cyberguide</title>
     <link>http://www.lucyber.club/</link>
-    <description>Recent content on LU Cyberguide</description>
+    <description>Recent content in LU Cyber Club on LU Cyberguide</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.lucyber.club/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Guide</title>
@@ -23,7 +23,7 @@ Continue</description>
       
       <guid>http://www.lucyber.club/getting_started/kali/</guid>
       <description>Table of Contents
-   What is Kali Linux? Alternatives Being Responsible Installing Kali     What is Kali Linux? Kali Linux is the premier hacking linux distro maintained by Offensive Security. Basically it is a Ubuntu-based operating system that offers a number of Graphical desktop environments and currated collections of software packages for ethical hacking, pentesting, and all the subgroups of operations therein.
+   What is Kali Linux? Alternatives Being Responsible Installing Kali    What is Kali Linux? Kali Linux is the premier hacking linux distro maintained by Offensive Security. Basically it is a Ubuntu-based operating system that offers a number of Graphical desktop environments and currated collections of software packages for ethical hacking, pentesting, and all the subgroups of operations therein.
 Alternatives Now, technically you could run pretty much any linux distro for your cybery activities, but Kali makes it easy with (most) of the hard work of collecting all the cybersecurity tools for you.</description>
     </item>
     
