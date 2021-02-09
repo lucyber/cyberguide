@@ -1,5 +1,5 @@
 ---
-title: LU Cyberguide
+title: LU Cyber Club
 ---
 
 
