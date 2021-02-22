@@ -1,10 +1,10 @@
 name: hugo build and deploy
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - master  # Set a branch to deploy
+#on:
+ # workflow_dispatch:
+  #push:
+   # branches:
+    #  - master  # Set a branch to deploy
       
 jobs:
   deploy:
