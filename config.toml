@@ -1,4 +1,4 @@
-baseURL = "https://lucyber.github.io/cyberguide/"
+baseURL = "https://lucyber.club"
 title = "Liberty University Cyber Defense Club"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
