@@ -7,7 +7,6 @@
 
 <p align="center">Maintained by the Cyber Defense Club at Liberty University</p>
 
-![](/static/images/feature.png)
 
 <br>
 
@@ -36,11 +35,7 @@
 
 *Current Link*
 
-[https://cyberguide.os9.run/](https://cyberguide.os9.run/)
-
-*Future Link: Awaiting approval*
-
-https://guide.lucyber.club/
+https://lucyber.club/
 
 ## Rationale
 
@@ -57,20 +52,16 @@ structure, we can export that content to a Website (default), a PDF, and even an
 
 For simple changes, those with write access to the repository can make changes to the files directly on github. 
 When a change is commited to the master branch, the CI/CD pipeline with Github Actions kicks off, generates the site
-with Hugo and deploys the result. If you're curious, that workflow file is located at `.github/workflows/main.yml`
+with Hugo and deploys the result. If you're curious, that workflow file is located at `.github/workflows/github-pages-hugo.yml`
 
-For local development, you will need [NodeJS](nodejs.org), and [Hugo](gohugo.io) installed. Simple clone the repository
-make your changes, and commit them. You will need to build the theme assets for the first time. After that you
-can use hugo's local dev server with live reloading to see changes as you make them.
+For local development, you will need [Hugo](gohugo.io) installed. Simple clone the repository
+make your changes, and commit them. 
 
 **Example:**
 
 ```
-git clone git@github.com:lucyber/cyberguide.git
-cd cyberguide/themes/geekdoc
-npm install
-gulp default
-cd ../..
+git clone --recursive git@github.com:lucyber/cyberguide.git
+cd cyberguide
 hugo server -D
 ```
 
@@ -94,7 +85,6 @@ git push
 
 - Philip - Original Idea
 - [Hugo](gohugo.io) (Static Site Generation from Markdown)
-- [Geekdoc Theme](https://github.com/xoxys/hugo-geekdoc) (Documentation Theme for Hugo)
 
 ## License
 
