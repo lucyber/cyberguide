@@ -35,7 +35,7 @@
 
 *Current Link*
 
-https://lucyber.club/
+https://www.lucyber.club/
 
 ## Rationale
 
