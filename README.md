@@ -54,14 +54,15 @@ For simple changes, those with write access to the repository can make changes t
 When a change is commited to the master branch, the CI/CD pipeline with Github Actions kicks off, generates the site
 with Hugo and deploys the result. If you're curious, that workflow file is located at `.github/workflows/github-pages-hugo.yml`
 
-For local development, you will need [Hugo](gohugo.io) installed. Simple clone the repository
+For local development, you will need [Hugo Extended](gohugo.io) installed. Simply clone the repository
 make your changes, and commit them. 
 
 **Example:**
 
 ```
-git clone --recursive git@github.com:lucyber/cyberguide.git
+git clone git@github.com:lucyber/cyberguide.git
 cd cyberguide
+git submodule update --init --remote
 hugo server -D
 ```
 
@@ -84,6 +85,8 @@ git push
 ## Credits
 
 - Philip - Original Idea
+- Ryan - Idea Facilitator
+- Higley - Idea Revisor and Spirited Maintainer
 - [Hugo](gohugo.io) (Static Site Generation from Markdown)
 
 ## License
