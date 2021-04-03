@@ -16,5 +16,3 @@ Networking is essentially just how computers communicate with each other whether
 **Wireshark**
 + [Getting Started with Wireshark Packet Capturing](https://www.howtogeek.com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/)
 
-
-**[Continue](https://cyberguide.os9.run/Beginner-Guide/CTFs/)**

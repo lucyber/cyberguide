@@ -26,5 +26,3 @@ Linux is an open-source operating system that is essential to know about in the 
     + [Python book](http://www.openbookproject.net/thinkcs/python/english2e/)
 
 
-
-**[Continue](https://cyberguide.os9.run/Beginner-Guide/Windows/)**

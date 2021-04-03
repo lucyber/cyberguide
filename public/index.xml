@@ -6,42 +6,20 @@
     <description>Recent content in LU Cyber Club on Liberty University Cyber Defense Club</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.lucyber.club/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introduction to Guide</title>
-      <link>https://www.lucyber.club/Beginner-Guide/Introduction/</link>
-      <pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate>
-      
-      <guid>https://www.lucyber.club/Beginner-Guide/Introduction/</guid>
-      <description>Welcome to the Beginners Guide!
-Welcome! This portion of the guide is designed for students just getting started in cybersecurity. If you aren&amp;rsquo;t sure what cybersecurity entails, or if you just need to brush up on some of the basics, then this guide is for you. This guide provides several resources for topics on Linux, Windows, Networking, and CTFs.
-Continue</description>
-    </item>
-    
-    <item>
-      <title>Kali Linux</title>
-      <link>https://www.lucyber.club/getting_started/kali/</link>
-      <pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate>
-      
-      <guid>https://www.lucyber.club/getting_started/kali/</guid>
-      <description>Table of Contents
-What is Kali Linux? Kali Linux is the premier hacking linux distro maintained by Offensive Security. Basically it is a Ubuntu-based operating system that offers a number of Graphical desktop environments and currated collections of software packages for ethical hacking, pentesting, and all the subgroups of operations therein.
-Alternatives Now, technically you could run pretty much any linux distro for your cybery activities, but Kali makes it easy with (most) of the hard work of collecting all the cybersecurity tools for you.</description>
-    </item>
-    
-    <item>
       <title>Linux</title>
-      <link>https://www.lucyber.club/Beginner-Guide/Linux/</link>
+      <link>https://www.lucyber.club/docs/getting-started/linux/</link>
       <pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate>
       
-      <guid>https://www.lucyber.club/Beginner-Guide/Linux/</guid>
+      <guid>https://www.lucyber.club/docs/getting-started/linux/</guid>
       <description>What is Linux? Linux is an open-source operating system that is essential to know about in the cybersecurity world. There are many versions of Linux that are available which all have their own unique features that differentiate them. This portion of the guide will provide resources for making a Linux Virtual Machine (VM) as well as resources for learning more about the operating system. For the purposes of the club and this guide, Kali Linux will be used.</description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>https://www.lucyber.club/Beginner-Guide/Windows/</link>
+      <link>https://www.lucyber.club/docs/getting-started/windows/</link>
       <pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate>
       
-      <guid>https://www.lucyber.club/Beginner-Guide/Windows/</guid>
+      <guid>https://www.lucyber.club/docs/getting-started/windows/</guid>
       <description>What is Windows? Microsoft Windows is the operating system that most of you are probably the most comfortable using. However, Windows has several powerful tools and services that you might not have ever heard about. This portion of the guide provides resources to learning basic PowerShell commands and a brief look at Active Directory.
 PowerShell
  Under the Wire  Interactive way to learn PowerShell commands    Active Directory</description>
@@ -49,10 +27,10 @@ PowerShell
     
     <item>
       <title>Networking</title>
-      <link>https://www.lucyber.club/Beginner-Guide/Networking/</link>
+      <link>https://www.lucyber.club/docs/networking/networking/</link>
       <pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate>
       
-      <guid>https://www.lucyber.club/Beginner-Guide/Networking/</guid>
+      <guid>https://www.lucyber.club/docs/networking/networking/</guid>
       <description>What is Networking? Networking is essentially just how computers communicate with each other whether that be inside the same local network or across the world. A basic understanding of networking will be critical to having success in a cybersecurity related field. This portion of the guide provides resources for learning about the OSI model, different protocols and their associated ports, and an introduction to Wireshark.
 Networking basics
  OSI Model Protocols and Ports Common Protocols List  Wireshark</description>
@@ -60,10 +38,10 @@ Networking basics
     
     <item>
       <title>CTFs</title>
-      <link>https://www.lucyber.club/Beginner-Guide/CTFs/</link>
+      <link>https://www.lucyber.club/docs/ctfs-and-competitions/ctfs/</link>
       <pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate>
       
-      <guid>https://www.lucyber.club/Beginner-Guide/CTFs/</guid>
+      <guid>https://www.lucyber.club/docs/ctfs-and-competitions/ctfs/</guid>
       <description>What is a CTF? CTF (Capture The Flag) competitions are a great way to learn more about cybersecurity and also just to have fun competing with a group of friends. CTFs typically last for two to three days and have several different types of challenges that the player can try to complete for points. This portion of the guide provides a resource for learning more about what CTFs are and how to get started competing.</description>
     </item>
     

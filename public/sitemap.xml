@@ -1,58 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://www.lucyber.club/Beginner-Guide/Introduction/</loc>
-    <lastmod>2020-09-29T22:01:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/Beginner-Guide/</loc>
-    <lastmod>2020-09-29T16:36:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/getting_started/kali/</loc>
-    <lastmod>2020-09-24T15:20:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/Beginner-Guide/Linux/</loc>
-    <lastmod>2020-11-02T18:04:20-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/getting_started/</loc>
-    <lastmod>2020-09-23T09:50:38-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/Beginner-Guide/Windows/</loc>
-    <lastmod>2020-09-29T22:01:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/Beginner-Guide/Networking/</loc>
-    <lastmod>2020-11-02T18:04:20-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/Beginner-Guide/CTFs/</loc>
-    <lastmod>2020-09-29T21:14:50-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/categories/</loc>
-  </url>
-  
-  <url>
+    <loc>https://www.lucyber.club/docs/getting-started/linux/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/getting-started/windows/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/networking/networking/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/ctfs-and-competitions/ctfs/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/web-security/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/system-tools-and-technologies/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/social-engineering/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/scripting/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/programming/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/osint-and-analysis/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/networking/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/misc-topics/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/labs-and-activities/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/incident-response/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/getting-started/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/cyber-media/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/ctfs-and-competitions/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/cryptography/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/beginners-guide/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/assembly-and-machine-language/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
+    <loc>https://www.lucyber.club/docs/</loc>
+    <lastmod>2021-02-22T19:02:57-05:00</lastmod>
+  </url><url>
     <loc>https://www.lucyber.club/</loc>
     <lastmod>2021-02-09T12:24:05-05:00</lastmod>
   </url>
-  
-  <url>
-    <loc>https://www.lucyber.club/tags/</loc>
-  </url>
-  
 </urlset>

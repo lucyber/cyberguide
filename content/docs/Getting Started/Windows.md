@@ -15,4 +15,3 @@ Microsoft Windows is the operating system that most of you are probably the most
 + [What is Active Directory?](https://searchwindowsserver.techtarget.com/definition/Active-Directory)
 
 
-**[Continue](https://cyberguide.os9.run/Beginner-Guide/Networking/)**
