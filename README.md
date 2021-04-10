@@ -88,6 +88,7 @@ git push
 - Ryan - Idea Facilitator
 - Higley - Idea Revisor and Spirited Maintainer
 - [Hugo](gohugo.io) (Static Site Generation from Markdown)
+- Ben - Project Manager
 
 ## License
 
