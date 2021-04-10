@@ -9,6 +9,8 @@ enableGitInfo = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+layouts = "layouts/"
+
 [outputs]
   home = ["HTML", "RSS","JSON"]
 
