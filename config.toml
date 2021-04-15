@@ -79,4 +79,8 @@ layouts = "layouts/"
     iconLight = "images/GitHubMarkLight.svg"
     iconDark = "images/GitHubMarkDark.svg"
     url = "https://github.com/lucyber/cyberguide/"
+    
+  [params.author]
+    name = "Liberty University Cyber Defense Club"
+    url = "https://www.liberty.edu/students/sga/clubs/cyber-defense-club/"
 
