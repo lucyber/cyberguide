@@ -16,5 +16,5 @@ We are the Liberty Cyber Defense Club.  We are a group of computer science stude
 
 <h2 style="text-align: center;">Connect With Us</h2>
 
-<p style="text-align: center;"><a href="https://discord.gg/BJnPPJr4uG"><img src=images/discord.webp></a><span style="padding: 20px;"></span><a href="https://teams.microsoft.com/l/team/19%3a2aa7a84251bf4550bd095f21c99efb24%40thread.skype/conversations?groupId=fa184012-9743-4bd3-95a7-d28e44f948de&tenantId=baf8218e-b302-4465-a993-4a39c97251b2"><img src=images/teams.png></a></p>
+<p style="text-align: center;"><a href="https://discord.gg/EMBrZ4cSe8"><img src=images/discord.webp></a><span style="padding: 20px;"></span><a href="https://teams.microsoft.com/l/team/19%3a2aa7a84251bf4550bd095f21c99efb24%40thread.skype/conversations?groupId=fa184012-9743-4bd3-95a7-d28e44f948de&tenantId=baf8218e-b302-4465-a993-4a39c97251b2"><img src=images/teams.png></a></p>
 
