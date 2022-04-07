@@ -16,10 +16,6 @@ layouts = "layouts/"
 
 #  menu items
 
-[[menu.main]]
-  name = "Thunderdome"
-  weight = 2
-  url = "thunderdome"
 
 [[menu.main]]
   name = "Blog"
