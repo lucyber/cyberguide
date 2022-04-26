@@ -2,7 +2,6 @@
 title: "Networking"
 date: 2020-09-24T14:31:33-04:00
 draft: false
-weight: 5
 ---
 
 In this section, you will find resources on Networking and everything that it encompasses.  This guide will show you the basics, get you familiar with popular networking technologies, and also provide you with resources for further research.
@@ -40,15 +39,15 @@ There are a few special IP addresses to be aware of, namely ```127.0.0.1``` also
 
 There are also different classes of IP addresses, specifically public and private addresses.  Private IP addresses are any of the following: ```10.X.X.X``` or ```192.168.X.X``` or ```172.16.X.X```.  These addresses are not reachable from the internet, at least not directly anyways.  Most other valid IPv4 addresses are considered public addresses.
 
-{{< tip >}}
+
 [Check out this video on IP addresses to learn more](https://www.youtube.com/watch?v=LIzTo6e4FgY)
-{{< /tip >}}
+
 
 A MAC address looks like this ```FB:74:26:76:DD:4C``` and is composed of six pairs of hexadecimal numbers.  A MAC address is a total of 48 bits and is meant to be a unique identifier for every networking interface in the world.
 
-{{< tip >}}
+
 [Check out this video on MAC addresses to learn more](https://www.youtube.com/watch?v=UrG7RTWIJak)
-{{< /tip >}}
+
 
 ##### Communication
 
@@ -59,9 +58,9 @@ If your computer has an address of ```192.168.1.2``` and the server has an addre
 
 With that, this brings us to the concept of switches.  Switches are Layer 2 devices which have multiple ethernet ports and simply connect devices via Layer 2.  You can think of a switch simply as knowing how to send frames from one ethernet port to another based on MAC addresses.  We recommend watching the video below for an in-depth look at switches and Layer 2 as a whole.
 
-{{< tip >}}
+
 [Check out this video on Layer 2 switches to learn more](https://www.youtube.com/watch?v=9yYqNqTNnqI)
-{{< /tip >}}
+
 
 ##### Layer 3 Communication
 
@@ -77,17 +76,17 @@ So what does a router actually do and how does it work?  Typically, a router has
 
 Now lets extend this concept.  Let's say that you wanted to send your packet to Google at the address ```8.8.8.8```.  Now the router receives this packet, and looks at it, but the router does not have an interface on the ```8.8.8.0``` subnet, the router does not really have any way of knowing where that subnet really is.  So how does the packet get there?  It uses the same concept as we used before, routers themselves have default routes.  The router sends this packet to its configured default route, say a router at ```192.168.2.254```.  This router then continues the process till the packet reaches its destination.  In this way, routers are strung together to form a chain, or network, or even a web.
 
-{{< tip >}}
+
 [Check out this video on routers and Layer 3 to learn more](https://www.youtube.com/watch?v=LExExB6Xjks)
-{{< /tip >}}
+
 
 ##### DHCP
 
 Dynamic Host Configuration Protocol, or DHCP is a way to assign IP addresses *dynamically* to hosts on a network.  This is great for users because rather than having to manually configure your IP address, subnet mask, and default route; your DHCP server can automatically assign you all of this.  To do this, your computer sends a special message via the broadcast address which the DHCP server responds to with the necessary information.  Now, a router can usually provide DHCP, but a DHCP server does not need to be a router.  In fact, any computer can act as a DHCP server.  The DHCP server has a DHCP pool which tells it which addresses it can assign.  The DHCP server then provides devices with DHCP leases which is the ability to use the IP address for a set amount of time.  When that time expires, the device then contacts the DHCP server for a different address.
 
-{{< tip >}}
+
 [Check out this video on DHCP to learn more](https://www.youtube.com/watch?v=S43CFcpOZSI)
-{{< /tip >}}
+
 
 ##### The Transport Layer
 
@@ -105,9 +104,9 @@ UDP is a simple protocol.  It prioritizes speed over anything else.  UDP has mes
 
 TCP on the other hand cares about your data.  It prioritizes data integrity, ensuring that every packet reaches its destination intact.  TCP requires that two different computers form what is known as a TCP handshake which keeps a connection open between the computers for the entirety of a conversation.  When using TCP, a computer first ensures that the other computer is ready to communicate, and the second computer responds saying it is (hence the handshake).  The first computer then begins to send information.  After each packet, the second computer responds saying that the information is received.  If the second computer does not respond in a certain amount of time, the first computer then sends the information again and again until it receives a response.  When the conversation ends, the computers then close the TCP connection.
 
-{{< tip >}}
+
 [Check out this video on the Transport Layer to learn more](https://www.youtube.com/watch?v=cA9ZJdqzOoU)
-{{< /tip >}}
+
 
 ##### Application Layer
 
@@ -130,17 +129,17 @@ And that is pretty much how the Application Layer actually works, the Transport 
 
 Domain Name System, or DNS is a way to use Domain Names such as ```google.com``` or ```liberty.edu``` to communicate on the internet without actually knowing the IP address of the server.  DNS works by having a server which maintains a list of DNS entries, called records for different domains, called zones.  Your computer then contacts this DNS server on UDP port 53 with the domain name, and the DNS server responds with the corresponding DNS record which contains the actual IP address of the server.  Your computer then continues using that IP address.  You may be asking how your computer knows which DNS server to contact, and the answer is you can either manually configure it to a server such as ```8.8.8.8``` (Google DNS) or ```1.1.1.1``` (Cloudflare DNS), or your DHCP server can provide you with a DNS server.  This is useful if you are on an internal network with special internal DNS records.  DNS is a very critical service to ensure the internet functions because without it, no one would know what servers to contact for what.
 
-{{< tip >}}
+
 [Check out this video on DNS to learn more](https://www.youtube.com/watch?v=Rck3BALhI5c)
-{{< /tip >}}
+
 
 ##### Hyper Text Transfer Protocol
 
 The Hyper Text Transfer Protocol, or HTTP as it is commonly known is by far one of the most used and familiar protocols on the internet.  HTTP uses TCP port 80 by default (or 443 when using SSL/TLS which is described below).  HTTP does exactly what its name implies, it transfers Hyper Text Markup Language, or HTML files, from one computer to another.  When you visit an HTTP (or web) server, you use a HTML browser such as Google Chrome or Mozilla Firefox which interprets HTML to display the requested web page.  There is a lot more to HTTP so please see the video below to learn more.
 
-{{< tip >}}
+
 [Check out this video on HTTP to learn more](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
-{{< /tip >}}
+
 
 With that, we bring this section of the guide to a close.  You now know the fundamentals of networking.  If this seems interesting to you or you want to master networking, continue reading to learn about some more advanced topics.
 
@@ -156,9 +155,9 @@ Now lets begin to understand what TLS actually does to provide you encryption.  
 
 Once the client has verified the server is who it says it is, the client and server then perform some form of key exchange.  This ensures that the client and server can encrypt and decrypt traffic as needed, but only they can do this.  A popular protocol to do this is Diffie-Hellman key exchange.  Regardless, once this is done, the client and server then proceed with their conversation, being careful to encrypt all traffic between them.
 
-{{< tip >}}
+
 [Check out this video on TLS to learn more](https://www.youtube.com/watch?v=0TLDTodL7Lc)
-{{< /tip >}}
+
 
 ##### Network Address Translation
 
@@ -172,26 +171,26 @@ Port Address Translation, or PAT is probably the form of NAT which you commonly 
 
 One to One NAT describes itself well.  It dedicates one public facing IP address to one private IP address.  All requests are then routed between the addresses by the router.  Dynamic NAT is similar, but instead pulls from a pool of public addresses and chooses one for each private address dynamically.
 
-{{< tip >}}
+
 [Check out this video on NAT to learn more](https://www.youtube.com/watch?v=qij5qpHcbBk)
-{{< /tip >}}
+
 
 ##### Firewalls
 
 Firewalls are probably what you first think of when you think about network security.  What is a firewall though?  A physical firewall is a device which sits between two networks and filters traffic through it.  It does this typically at Layer 3 by inspecting IP addresses and ports.  Firewalls are able to typically do three different actions on each packet they receive: Pass, Block, or Drop.  When a firewall Passes or Allows a packet, it simply lets the traffic continue on its way.  It may still log traffic which it allows as well, which is one of the most powerful features of a good firewall.  Firewalls can also be software applications which run on your computer or server.  Both software and hardware firewalls essentially do the same thing, but hardware firewalls are typically more powerful and allow for much greater granularity in how it can be configured.
 
-{{< tip >}}
+
 [Check out this video on firewalls to learn more](https://www.youtube.com/watch?v=9JQtyQEpQV8)
-{{< /tip >}}
+
 
 
 ##### Stateful vs Stateless
 
 There are two different kinds of firewalls whether it be hardware or software.  A firewall can be stateful or stateless.  What this means has to do with TCP connection states.  A stateless firewall does not care about TCP states and only allows or blocks traffic which is specifically declared in the firewall rules.  A stateful firewall remembers TCP states and can allow traffic based on these states.  A typical way this might work is that you allow SSH traffic in through your firewall on port 22.  You deny all outbound traffic except for related connections.  Then when an SSH connection is established, since the TCP state is created, it allows outbound traffic related to that TCP connection.  This is a powerful feature for a firewall to have and allows you to be stricter with your firewall rules by ensuring that only needed traffic is allowed.
 
-{{< tip >}}
+
 [Check out this video on stateful firewalls to learn more](https://www.youtube.com/watch?v=gMvXruavqDI)
-{{< /tip >}}
+
 
 Now that you have a general concept of routers and firewalls, we will now go over a few of the most popular firewalls and routers which are commonly used.  It is also important to note that most firewalls actually will act as routers, so you will often find just firewalls deployed without any router.
 
@@ -199,23 +198,23 @@ Now that you have a general concept of routers and firewalls, we will now go ove
 
 [PFSense](https://www.pfsense.org/) is an open source firewall application built on top of FreeBSD.  The company Netgate develops it and sells pre-built hardware firewalls which run the operating system.  PFSense is popular because you can easily install it in a virtual machine for testing purposes or on any x86 based computer.  You can manage PFSense via the command line which actually runs bash and is just a normal FreeBSD shell.  You primarily manage PFSense via its web interface.  The web interface allows you to configure interfaces, firewall rules, and everything else.
 
-{{< tip >}}
+
 [Check out this video on PFSense to learn more](https://www.youtube.com/watch?v=fsdm5uc_LsU)
-{{< /tip >}}
+
 
 [OPNSense](https://opnsense.org/) is a fork of PFSense and is very similar to it.  OPNSense is now based on HardenedBSD instead of FreeBSD, but it is not backed by any company.  Rather, OPNSense is similar to most Linux distributions in that it is completely community maintained.  The web interface for OPNSense is organized slightly differently from PFSense, but it still has the main features of PFSense.  Where OPNSense really shines is in its extra packages which PFSense does not have.  For instance, the popular VPN protocol Wireguard has had an OPNSense package for a long time, but PFSense is dependent on FreeBSD to develop a stable Wireguard kernel implementation.  Due to its additional features, OPNSense can be slightly more difficult to configure than PFSense, however.
 
-{{< tip >}}
+
 [Check out this video on OPNSense to learn more](https://www.youtube.com/watch?v=dv13d6rfQPI)
-{{< /tip >}}
+
 
 #### Palo Alto 
 
 Palo Alto is a proprietary firewall appliance series developed by Palo Alto Networks.  Palo Alto firewalls are available as physical devices but also as virtual machine appliances for VMWare ESXI.  The Palo Alto firewalls are actually based on CentOS Linux 7, but the administrative CLI is a custom shell developed by Palo Alto to perform specifically firewall related tasks.  It is very difficult to gain access to the underlying Linux OS of the firewall by design.  The main forms of administrative access for the Palo Alto are via the CLI, the web interface, and the XML/REST APIs.  The main features of Palo Alto firewalls is the advanced threat detection and filtering features.  The firewalls are able to examine files for malware and filter URL access for users.  The firewall can also be integrated into a Windows Active Directory environment and filter based upon different users in the AD domain.  Palo Alto firewalls have many more features than PFSense or OPNSense, but they are proprietary and difficult to obtain licensing for to actually try out the firewall.
 
-{{< tip >}}
+
 [Check out this playlist on Palo Alto Firewalls to learn more](https://www.youtube.com/watch?v=YaaRNHbvyjw&list=PLqATPiC_Bcl8rtMY14kyOuRg4_E0DdnQy&index=7)
-{{< /tip >}}
+
 
 #### Cisco
 
@@ -223,15 +222,15 @@ Cisco Systems is a company which specializes in the development of networking eq
 
 Cisco has developed an application known as Packet Tracer which allows anyone to practice networking and also practice utilizing Cisco networking equipment.  To download Packet Tracer visit [this link](https://www.netacad.com/courses/packet-tracer) and create a free Cisco Academy account.  Packet Tracer will allow you to practice the Cisco IOS CLI, but also test out different network topologies and protocols.
 
-{{< tip >}}
+
 [Check out this series on Packet Tracer to learn more](https://www.youtube.com/watch?v=frUQMHXhnvs)
-{{< /tip >}}
+
 
 #### Wireshark
 
 Wireshark is a popular tool for monitoring network traffic.  Wireshark allows you to see all of the traffic occurring on a network that you are connected on.  It is a powerful tool for debugging networking as well as intercepting traffic. [This resource](https://www.howtogeek.com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/) will help to get you started with Wireshark.
 
-{{< tip >}}
+
 [Check out this video on Wireshark to learn more](https://www.youtube.com/watch?v=lb1Dw0elw0Q)
-{{< /tip >}}
+
 
