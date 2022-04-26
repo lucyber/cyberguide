@@ -48,10 +48,10 @@ params:
         #safari_pinned_tab: "<link / abs url>"
 
 
-    # # home-info mode
-    # homeInfoParams:
-    #     Title: "Hi there \U0001F44B"
-    #     Content: Welcome to my blog
+    # home-info mode
+    homeInfoParams:
+        Title: "Welcome"
+        Content: Welcome to the Liberty University Cyber Defense Club Cyberguide! This guide is designed for students to learn about cyber security by utilizing the provided resources. As time goes on more content will be added to this site and the guide will continue to be updated and improved.
 
     # socialIcons:
     #     - name: twitter
