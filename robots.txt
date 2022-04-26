@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://guide.lucyber.club/sitemap.xml

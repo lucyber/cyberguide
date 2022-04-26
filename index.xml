@@ -1,9 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LU Cyber Club on Liberty University Cyber Defense Club</title><link>https://guide.lucyber.club/</link><description>Recent content in LU Cyber Club on Liberty University Cyber Defense Club</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://guide.lucyber.club/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://guide.lucyber.club/docs/programming/git/</link><pubDate>Mon, 23 Mar 2020 10:23:39 -0400</pubDate><guid>https://guide.lucyber.club/docs/programming/git/</guid><description>What is Git? Git is an open-source distributed version control system.
-Learning Git Basics
-Getting Started With Git</description></item><item><title>Networking</title><link>https://guide.lucyber.club/docs/networking/</link><pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate><guid>https://guide.lucyber.club/docs/networking/</guid><description>In this section, you will find resources on Networking and everything that it encompasses. This guide will show you the basics, get you familiar with popular networking technologies, and also provide you with resources for further research.
-What is Networking? Networking is how computers communicate with each other whether that be inside the same local network or across the world via the internet. A basic understanding of networking will be critical to having success in a cybersecurity related field.</description></item><item><title>Web Security</title><link>https://guide.lucyber.club/docs/websecurity/</link><pubDate>Mon, 22 Feb 2021 18:54:43 -0500</pubDate><guid>https://guide.lucyber.club/docs/websecurity/</guid><description/></item><item><title>System, Tools, and Technologies</title><link>https://guide.lucyber.club/docs/toolstech/</link><pubDate>Mon, 22 Feb 2021 18:54:31 -0500</pubDate><guid>https://guide.lucyber.club/docs/toolstech/</guid><description/></item><item><title>Social Engineering</title><link>https://guide.lucyber.club/docs/socialengineering/</link><pubDate>Mon, 22 Feb 2021 18:54:16 -0500</pubDate><guid>https://guide.lucyber.club/docs/socialengineering/</guid><description/></item><item><title>Scripting</title><link>https://guide.lucyber.club/docs/scripting/</link><pubDate>Mon, 22 Feb 2021 18:54:08 -0500</pubDate><guid>https://guide.lucyber.club/docs/scripting/</guid><description/></item><item><title>Programming</title><link>https://guide.lucyber.club/docs/programming/</link><pubDate>Mon, 22 Feb 2021 18:54:02 -0500</pubDate><guid>https://guide.lucyber.club/docs/programming/</guid><description/></item><item><title>OSINT and Analysis</title><link>https://guide.lucyber.club/docs/osintanalysis/</link><pubDate>Mon, 22 Feb 2021 18:53:54 -0500</pubDate><guid>https://guide.lucyber.club/docs/osintanalysis/</guid><description/></item><item><title>Misc Topics</title><link>https://guide.lucyber.club/docs/misctopics/</link><pubDate>Mon, 22 Feb 2021 18:53:34 -0500</pubDate><guid>https://guide.lucyber.club/docs/misctopics/</guid><description/></item><item><title>Labs and Activities</title><link>https://guide.lucyber.club/docs/labsactivities/</link><pubDate>Mon, 22 Feb 2021 18:53:25 -0500</pubDate><guid>https://guide.lucyber.club/docs/labsactivities/</guid><description>This section is dedicated to providing resources to go and actively learn. Whether you are interested in practicing your ethical hacking skills, learning defensive techniques, or want a new coding project, there's something here for you to work on.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Liberty University Cyber Defense Club</title>
+    <link>https://guide.lucyber.club/</link>
+    <description>Recent content on Liberty University Cyber Defense Club</description>
+    <image>
+      <url>https://guide.lucyber.club/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://guide.lucyber.club/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 22 Feb 2021 18:53:25 -0500</lastBuildDate><atom:link href="https://guide.lucyber.club/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginner&#39;s Guide</title>
+      <link>https://guide.lucyber.club/docs/beginnerguide/</link>
+      <pubDate>Mon, 22 Feb 2021 18:52:06 -0500</pubDate>
+      
+      <guid>https://guide.lucyber.club/docs/beginnerguide/</guid>
+      <description>Welcome to the Beginners Guide!
+Welcome! This portion of the guide is designed for students just getting started in cybersecurity. If you aren&amp;rsquo;t sure what cybersecurity entails, or if you just need to brush up on some of the basics, then this guide is for you. This guide provides several resources for topics on Linux, Windows, Networking, and CTFs.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://guide.lucyber.club/docs/gettingstarted/</link>
+      <pubDate>Mon, 22 Feb 2021 18:53:03 -0500</pubDate>
+      
+      <guid>https://guide.lucyber.club/docs/gettingstarted/</guid>
+      <description>Linux What is Linux? Linux is an open-source operating system that is essential to know about in the cybersecurity world. There are many versions of Linux that are available which all have their own unique features that differentiate them. This portion of the guide will provide resources for making a Linux Virtual Machine (VM) as well as resources for learning more about the operating system. For the purposes of the club and this guide, Kali Linux will be used.</description>
+    </item>
+    
+    <item>
+      <title>Labs and Activities</title>
+      <link>https://guide.lucyber.club/docs/labsactivities/</link>
+      <pubDate>Mon, 22 Feb 2021 18:53:25 -0500</pubDate>
+      
+      <guid>https://guide.lucyber.club/docs/labsactivities/</guid>
+      <description>This section is dedicated to providing resources to go and actively learn. Whether you are interested in practicing your ethical hacking skills, learning defensive techniques, or want a new coding project, there&amp;rsquo;s something here for you to work on.
 Practice Hacking
-Hack the Box TryHackMe Practice Defense
-Blue Team Labs Online</description></item><item><title>Incident Response</title><link>https://guide.lucyber.club/docs/incidentresponse/</link><pubDate>Mon, 22 Feb 2021 18:53:13 -0500</pubDate><guid>https://guide.lucyber.club/docs/incidentresponse/</guid><description/></item><item><title>Getting Started</title><link>https://guide.lucyber.club/docs/gettingstarted/</link><pubDate>Mon, 22 Feb 2021 18:53:03 -0500</pubDate><guid>https://guide.lucyber.club/docs/gettingstarted/</guid><description>Linux What is Linux? Linux is an open-source operating system that is essential to know about in the cybersecurity world. There are many versions of Linux that are available which all have their own unique features that differentiate them. This portion of the guide will provide resources for making a Linux Virtual Machine (VM) as well as resources for learning more about the operating system. For the purposes of the club and this guide, Kali Linux will be used.</description></item><item><title>Cyber Media</title><link>https://guide.lucyber.club/docs/media/</link><pubDate>Mon, 22 Feb 2021 18:52:52 -0500</pubDate><guid>https://guide.lucyber.club/docs/media/</guid><description/></item><item><title>CTFs and Competitions</title><link>https://guide.lucyber.club/docs/ctfs/</link><pubDate>Mon, 22 Feb 2021 18:52:40 -0500</pubDate><guid>https://guide.lucyber.club/docs/ctfs/</guid><description>####What is a CTF? CTF (Capture The Flag) competitions are a great way to learn more about cybersecurity and also just to have fun competing with a group of frie
-Getting Started What is a CTF?</description></item><item><title>Cryptography</title><link>https://guide.lucyber.club/docs/cryptography/</link><pubDate>Mon, 22 Feb 2021 18:52:20 -0500</pubDate><guid>https://guide.lucyber.club/docs/cryptography/</guid><description/></item><item><title>Beginner's Guide</title><link>https://guide.lucyber.club/docs/beginnerguide/</link><pubDate>Mon, 22 Feb 2021 18:52:06 -0500</pubDate><guid>https://guide.lucyber.club/docs/beginnerguide/</guid><description>Welcome to the Beginners Guide!
-Welcome! This portion of the guide is designed for students just getting started in cybersecurity. If you aren't sure what cybersecurity entails, or if you just need to brush up on some of the basics, then this guide is for you. This guide provides several resources for topics on Linux, Windows, Networking, and CTFs.</description></item><item><title>Assembly and Machine Language</title><link>https://guide.lucyber.club/docs/assemblymachine/</link><pubDate>Mon, 22 Feb 2021 18:51:36 -0500</pubDate><guid>https://guide.lucyber.club/docs/assemblymachine/</guid><description/></item></channel></rss>
+ Hack the Box TryHackMe  Practice Defense
+ Blue Team Labs Online  </description>
+    </item>
+    
+    <item>
+      <title>CTFs and Competitions</title>
+      <link>https://guide.lucyber.club/docs/ctfs/</link>
+      <pubDate>Mon, 22 Feb 2021 18:52:40 -0500</pubDate>
+      
+      <guid>https://guide.lucyber.club/docs/ctfs/</guid>
+      <description>What is a CTF? CTF (Capture The Flag) competitions are a great way to learn more about cybersecurity and also just to have fun competing with a group of frie
+Getting Started  What is a CTF?  </description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>https://guide.lucyber.club/docs/networking/</link>
+      <pubDate>Thu, 24 Sep 2020 14:31:33 -0400</pubDate>
+      
+      <guid>https://guide.lucyber.club/docs/networking/</guid>
+      <description>In this section, you will find resources on Networking and everything that it encompasses. This guide will show you the basics, get you familiar with popular networking technologies, and also provide you with resources for further research.
+What is Networking? Networking is how computers communicate with each other whether that be inside the same local network or across the world via the internet. A basic understanding of networking will be critical to having success in a cybersecurity related field.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://guide.lucyber.club/docs/git/</link>
+      <pubDate>Mon, 23 Mar 2020 10:23:39 -0400</pubDate>
+      
+      <guid>https://guide.lucyber.club/docs/git/</guid>
+      <description>What is Git? Git is an open-source distributed version control system.
+Learning Git Basics
+ Getting Started With Git  </description>
+    </item>
+    
+  </channel>
+</rss>
