@@ -1,5 +1,5 @@
 baseURL: "https://guide.lucyber.club"
-title: "Liberty University Cyber Defense Club"
+title: "LU Cyber Guide"
 enableRobotsTXT: true
 paginate: 50
 theme: PaperMod
